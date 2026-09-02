@@ -1,0 +1,74 @@
+# Dependencies
+node_modules/
+.pnp/
+.pnp.js
+
+# Build outputs
+dist/
+build/
+.next/
+out/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+.env.prod
+!.env.example
+
+# Terraform
+*.tfvars
+!*.tfvars.example
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Testing
+coverage/
+.nyc_output/
+qa-results/
+
+# Docker
+nginx/logs/
+nginx/ssl/*.pem
+nginx/ssl/*.key
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Serena (local MCP tool config)
+.serena/
+
+# Root-level screenshots (prevent accidental commits)
+/*.png
+
+# Misc
+*.tgz
+.cache/
+dbhub.toml
+test-credentials.local.json
+.playwright-mcp/
+.mcp.json
+*.tfvars.backup*
+
+# Local agent/session state
+.omx/
+
+# 내부 요약본 (사업 수치 포함, 공개 제외)
+docs/summary.md
