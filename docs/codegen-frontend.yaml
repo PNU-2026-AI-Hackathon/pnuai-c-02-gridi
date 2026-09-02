@@ -1,0 +1,13 @@
+# OpenAPI Generator configuration for Frontend (axios client)
+generatorName: typescript-axios
+outputDir: frontend/src/api/generated
+inputSpec: docs/openapi.yaml
+additionalProperties:
+  supportsES6: true
+  npmName: "@gridi/api-client"
+  npmVersion: "1.0.0"
+  withInterfaces: true
+  useSingleRequestParameter: true
+  withSeparateModelsAndApi: true
+  apiPackage: api
+  modelPackage: models
